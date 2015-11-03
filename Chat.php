@@ -2,7 +2,7 @@
 <html>
 <body>
 <?php
-if ($_POST["password"]=="good"){
+if ($_POST["password"]=="ticoune"){
 $servername = "us-cdbr-azure-northcentral-a.cleardb.com";
 $username = "bcc07699641851";
 $password = "3156dcd4";
