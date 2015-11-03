@@ -1,6 +1,7 @@
 <html>
 <body>
 <center>
+<textarea cols="100" rows="100%" readonly>
 <?php
 $servername = "us-cdbr-azure-northcentral-a.cleardb.com";
 $username = "bcc07699641851";
@@ -27,7 +28,7 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
-
+</textarea>
 
 <form action="Chat.php" method="post">
 <textarea type="text" name="text" wrap="soft" rows="10" cols="100" >
