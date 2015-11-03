@@ -35,7 +35,7 @@ $conn->close();
 </textarea>
 <br>
 Nom:<input type="text" name="name" size="15"><br>
-Password:<input type="text" name="password"><br>
+Password:<input type="password" name="password"><br>
 <input type="submit">
 </center>
 </form>
