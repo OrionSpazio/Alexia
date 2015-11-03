@@ -31,7 +31,7 @@ if ($conn->query($sql) === TRUE) {
 $conn->close();
 $message = wordwrap($textMail);
 //mail("orionspazio@gmail.com","New chat message on Seg-Intel",$textMail);
-header("Location: http://alexia-gab.azurewebsites.net/Messages.php");
+//header("Location: http://alexia-gab.azurewebsites.net/Messages.php");
 }
 else{
 	echo "wrong password";
