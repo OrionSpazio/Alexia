@@ -19,7 +19,8 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "INSERT INTO communications VALUES ('$text');";
+$sql = "INSERT INTO communications (idcommunications)
+VALUES ('$text')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
