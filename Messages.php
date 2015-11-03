@@ -1,7 +1,7 @@
 <html>
 <body>
 <center>
-<textarea cols="100" rows="100%" readonly>
+<textarea cols="100" rows="50" readonly>
 <?php
 $servername = "us-cdbr-azure-northcentral-a.cleardb.com";
 $username = "bcc07699641851";
